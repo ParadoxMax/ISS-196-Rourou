@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>classroom</title>
+</head>
+<body>
+<img src="B100.jpg" width="700" height="700" >
+</body>
+</html>
+
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="searchclassroom.css">
+	<script type="text/javascript">
+    function search_classroom()
+{  
+    
+    var input = document.getElementById("textbox_id").value; 
+    window.location.replace(input + ".html");
+
+} 
+	</script>
+	<title>
+	 search a classroom
+	</title>
+</head>
+<body>
+ <div class="login-box">
+        <h1>search class</h1>
+            <form>
+            
+             <input type="text" name="textbox" id="textbox_id" placeholder="classroom">
+            
+            <button type="button" name="submit" value="Confirm" onclick="search_classroom();">search</button></br></br>    
+            </form>
+        </div>
+</body>
+</html> 
+ 
